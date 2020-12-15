@@ -1,0 +1,110 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.bipul.nrsingdidristict"
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+
+    // androidX
+    implementation 'androidx.core:core:1.3.1'
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.legacy:legacy-support-core-ui:1.0.0'
+    implementation 'androidx.fragment:fragment:1.2.5'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.loader:loader:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'androidx.browser:browser:1.2.0'
+
+    //material
+    implementation 'com.google.android.material:material:1.2.1'
+
+    //circle Image
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //banner  slider
+    implementation 'com.github.smarteist:autoimageslider:1.3.2-appcompat'
+
+    //circle Image
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.github.dhaval2404:imagepicker-support:1.7.1'
+
+    //custom chorome tab
+    //noinspection GradleCompatible
+    implementation 'com.android.support:customtabs:28.0.0'
+
+    //file chooser
+    implementation 'com.github.hedzr:android-file-chooser:v1.2.0-final'
+
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.6.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    //picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //slider
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.github.d-max:spots-dialog:0.7@aar'
+    implementation 'com.github.omadahealth:swipy:1.2.3@aar'
+    implementation 'com.github.BlackBoxVision:datetimepicker-edittext:v0.4.0'
+
+    //custom Dialog
+    implementation 'com.github.TutorialsAndroid:KAlertDialog:v14.0.19'
+
+    //editText
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+
+    // network
+    implementation 'com.squareup.retrofit2:retrofit:2.6.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
+    implementation 'com.squareup.okhttp3:okhttp:3.14.1'
+    implementation 'com.squareup.okio:okio:2.5.0'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.14.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.14.0'
+
+    // permission
+    implementation 'com.master.android:permissionhelper:2.1'
+    // others
+    implementation 'com.pnikosis:materialish-progress:1.7'
+    implementation 'com.yqritc:recyclerview-flexibledivider:1.4.0'
+    implementation 'com.google.android:flexbox:2.0.1'
+
+
+}

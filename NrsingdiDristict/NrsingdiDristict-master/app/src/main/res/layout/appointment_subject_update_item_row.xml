@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/subjectUpdateET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter update "
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/grey_40"
+            android:textSize="16dp"
+            app:met_baseColor="@android:color/black"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="11"
+            app:met_primaryColor="@android:color/black"
+            app:met_singleLineEllipsis="true" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

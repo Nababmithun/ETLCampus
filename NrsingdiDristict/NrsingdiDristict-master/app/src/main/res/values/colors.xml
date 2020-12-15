@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2e7d32</color>
+    <color name="colorPrimaryDark">#005005</color>
+    <color name="colorAccent">#005005</color>
+    <color name="white">#fff</color>
+    <color name="gray">#40F6ECEC</color>
+    <color name="status_bar_color">#AAAAAA</color>
+
+    <color name="search_icon_color">#40FFFFFF</color>
+
+    <color name="theme_color">#1C94d2</color>
+    <color name="text_color">#04AAFF</color>
+    <color name="gray_dark">#343a40</color>
+    <color name="black">#000</color>
+
+    <color name="grayWhite">#666666</color>
+    <color name="grayColor">#95959797</color>
+    <color name="light">#4E4A37</color>
+
+
+    <color name="purple_200">#666666</color>
+    <color name="purple_500">#676A6C</color>
+    <color name="purple_700">#676A6C</color>
+    <color name="teal_200">#666666</color>
+    <color name="teal_700">#29434e</color>
+
+    <color name="normal">#ffb8c0ce</color>
+    <color name="selected">#5b6575</color>
+
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+
+    <color name="grey_very_hard">#7D7D7D</color>
+    <color name="grey_hard">#96989A</color>
+    <color name="grey_medium">#BDBFC1</color>
+    <color name="grey_soft">#EDEDED</color>
+    <color name="grey_dark">#262626</color>
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="overlay_dark_30">#4D000000</color>
+    <color name="overlay_dark_40">#66000000</color>
+    <color name="overlay_dark_50">#80000000</color>
+    <color name="overlay_dark_60">#99000000</color>
+    <color name="overlay_dark_70">#B3000000</color>
+    <color name="overlay_dark_80">#CC000000</color>
+    <color name="overlay_dark_90">#E6000000</color>
+
+    <color name="colorAccentDark">#292727</color>
+    <color name="colorAccentLight">#383535</color>
+
+    <color name="swipe_1">#D54240</color>
+    <color name="swipe_2">#4caf50</color>
+    <color name="swipe_3">#9031BF</color>
+    <color name="swipe_4">#21A2BC</color>
+    <color name="swipe_5">#328AC1</color>
+    <color name="swipe_6">#B6C304</color>
+    <color name="swipe_7">#F6C900</color>
+    <color name="swipe_8">#3935AA</color>
+
+    <color name="shadow">#8A000000</color>
+    <color name="text1_color">#006C05</color>
+    <color name="text2_color">#90DBED</color>
+    <color name="text3_color">#F84B99</color>
+    <color name="text4_color">#AEEA00</color>
+    <color name="text5_color">#E6C100</color>
+    <color name="green">#006C05</color>
+
+
+    <color name="colorPrimaryEditor">#009cfd</color>
+    <color name="colorPrimaryDarkEditor">#1284ca</color>
+    <color name="colorAccentEditor">#e24000</color>
+
+</resources>

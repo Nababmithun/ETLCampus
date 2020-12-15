@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.PublicHeadingSaveActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                app:tint="@color/white"
+                android:id="@+id/backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:onClick="backBtn"
+                android:padding="10dp"
+                android:background="?actionBarItemBackground"
+                android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/backBtn"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:text="গণশুনানি যোগ করুন "
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="8dp"
+                android:orientation="vertical">
+
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="গনশুনানির বিষয় "
+                    android:textColor="@color/grayWhite"
+                    android:textSize="16sp" />
+
+
+                <EditText
+                    android:id="@+id/subjectET"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/edit_baground"
+                    android:hint="আপনার বিষয়টি লিখুন"
+                    android:inputType="text"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="10dp"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="বিবরণ"
+                    android:textColor="@color/grayWhite"
+                    android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/detailsET"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:maxLength="2000"
+                        android:maxLines="4"
+                        android:gravity="start"
+                        android:padding="6dp"
+                        android:keyboardNavigationCluster="true"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginRight="6dp"
+                        android:background="@drawable/edit_baground"
+                        android:drawableTint="@color/grayColor"
+                        android:hint="আপনার বিবরণ লিখুন"
+                        android:inputType="text"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="10dp"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="ব্যক্তির নাম"
+                    android:textColor="@color/grayWhite"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/nameET"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/edit_baground"
+                    android:drawableTint="@color/grayColor"
+                    android:hint="আপনার পুরো নাম লিখুন"
+                    android:inputType="text"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="10dp"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="ঠিকানা"
+                    android:textColor="@color/grayWhite"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/addressET"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/edit_baground"
+                    android:hint="আপনার ঠিকানাটি লিখুন"
+                    android:inputType="text"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="10dp"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="মোবাইল নম্বর"
+                    android:textColor="@color/grayWhite"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/mobileNoET"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:background="@drawable/edit_baground"
+                    android:hint="আপনার মোবাইল নম্বরটি লিখুন"
+                    android:inputType="phone"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="10dp"
+                    android:textSize="14dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:onClick="btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/btn_bg"
+                android:text="জমা দিন"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="3dp"
+    android:background="@android:color/transparent"
+    android:foreground="?attr/selectableItemBackground"
+    android:id="@+id/adminStuffCV"
+    android:layout_marginTop="6dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginBottom="6dp"
+    android:layout_height="120dp">
+
+    <LinearLayout
+        android:background="@color/swipe_7"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:tint="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/stuff"/>
+
+        <TextView
+            android:text="কর্মকর্তা গণ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

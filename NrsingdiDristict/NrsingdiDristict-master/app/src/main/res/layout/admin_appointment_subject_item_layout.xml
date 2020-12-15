@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adminAppointmentSubjectCV"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginBottom="6dp"
+    android:background="@android:color/transparent"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/swipe_7"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <ImageView
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/appointment"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="20dp"
+            android:layout_weight="2"
+            android:text="সাক্ষাৎকারের বিষয়"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="6"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <ImageView
+                android:visibility="gone"
+                android:background="?actionBarItemBackground"
+                android:id="@+id/saveIV"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_baseline_save_24" />
+
+            <ImageView
+                android:visibility="gone"
+                android:background="?actionBarItemBackground"
+                android:id="@+id/updateIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/ic_baseline_edit_24" />
+
+            <ImageView
+                android:visibility="gone"
+                android:background="?actionBarItemBackground"
+                android:id="@+id/deleteIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/ic_baseline_delete_24" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

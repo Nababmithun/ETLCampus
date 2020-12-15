@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".activity.SendMessageActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="?actionBarItemBackground"
+                android:onClick="backBtn"
+                android:padding="10dp"
+                android:src="@drawable/ic_baseline_keyboard_backspace_24"
+                app:tint="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/backBtn"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:text="বার্তা পাঠান"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="2dp"
+            android:text="মোবাইল নম্বর দিন"
+            android:textColor="@color/grayWhite"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/mobileNoET"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="6dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/edit_baground"
+            android:drawableTint="@color/grayColor"
+            android:inputType="phone"
+            android:paddingLeft="8dp"
+            android:paddingRight="10dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="2dp"
+            android:text="বার্তাটি লিখুন"
+            android:textColor="@color/grayWhite"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/messageET"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:maxLength="2000"
+            android:gravity="start"
+            android:keyboardNavigationCluster="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/edit_baground"
+            android:drawableTint="@color/grayColor"
+            android:hint="আপনার বার্তাটি লিখুন "
+            android:inputType="text"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="10dp"
+            android:textSize="16dp" />
+
+
+        <Button
+            android:id="@+id/btnSent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearLayout1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_bg"
+            android:text="বার্তা পাঠন"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

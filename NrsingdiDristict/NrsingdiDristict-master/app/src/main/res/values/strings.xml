@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">আপনার জেলা প্রশাসক</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="date">15 Oct 2020 1.00PM</string>
+    <string name="event_location">ইউনিয়ন পরিষদ  নরসিংদী </string>
+
+    <string-array name="numbers">
+        <item>সৈয়দা ফারহানা কাউনাইন</item>
+        <item>কাউসার আজিজ</item>
+        <item>চৌধুরী আশরাফুল করিম</item>
+        <item>কমল কুমার ঘোষ</item>
+        <item>মোঃ আসসাদিকজামান</item>
+        <item>মো: পারভেজ মল্লিক</item>
+        <item>সাখাওয়াত জামিল সৈকত</item>
+        <item>সাবরিনা শারমিন</item>
+        <item>সাবরিনা শারমিন</item>
+        <item>মো: শাহ্‌রুখ খান</item>
+    </string-array>
+
+    <string-array name="person_type">
+        <item>জেলা প্রশাসক</item>
+        <item>অন্যান্য কর্মকর্তা </item>
+    </string-array>
+
+    <string-array name="appointmentSubject">
+        <item>সৌজন্য সাক্ষাৎ</item>
+        <item>সমস্যা ১</item>
+        <item>সমস্যা ২</item>
+        <item>সমস্যা ৩</item>
+
+    </string-array>
+</resources>

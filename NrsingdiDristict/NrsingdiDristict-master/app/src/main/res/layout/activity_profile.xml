@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ProfileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:onClick="backBtn"
+                android:padding="10dp"
+                android:background="?actionBarItemBackground"
+                android:src="@drawable/ic_baseline_keyboard_backspace_24"
+                app:tint="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/backBtn"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:text=""
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@color/colorPrimary">
+
+                <ImageView
+
+                    android:id="@+id/facebookIV"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/facebook_icon"
+                    app:tint="@color/white" />
+
+                <ImageView
+                    android:id="@+id/twitterIV"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/facebookIV"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/twitter_icon"
+                    app:tint="@color/white" />
+
+                <ImageView
+                    android:onClick="clickWhatsapp"
+                    android:id="@+id/whatsAppIV"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_below="@+id/twitterIV"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="32dp"
+                    android:src="@drawable/whatsapp"
+                    app:tint="@color/white" />
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/stuffImageIV"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="32dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/default_icon" />
+
+
+                <LinearLayout
+                    android:id="@+id/l1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/stuffImageIV"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/profile_nameTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="8dp"
+                        android:text="name"
+                        android:textColor="@color/white"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/designationTV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/profile_nameTV"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="designation"
+                        android:textColor="@color/white"
+                        android:textSize="16dp" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_below="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="8dp"
+                android:elevation="3dp"
+                app:cardElevation="3dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_marginTop="8dp"
+                        android:textSize="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="সাধারণ তথ্য"/>
+
+                    <LinearLayout
+                        android:layout_marginTop="6dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:text="মোবাইল"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:text=":"
+                            android:layout_marginStart="50dp"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:id="@+id/phoneNumberTV"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"
+                            android:layout_width="wrap_content"
+                            android:text="০১৭.........."
+                            android:layout_marginStart="6dp"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginTop="6dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:text="ইমেইল"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:text=":"
+                            android:layout_marginStart="60dp"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:id="@+id/emailTV"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:text="example@gmail.com"
+                            android:layout_marginLeft="6dp"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:text="ব্যাচ (বিসিএস)"
+
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:textSize="16dp"
+                            android:layout_marginStart="12dp"
+                            android:layout_width="wrap_content"
+                            android:text=":"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:id="@+id/bcsbatchTV"
+                            android:textSize="16dp"
+                            android:textColor="@android:color/black"
+                            android:layout_width="wrap_content"
+                            android:text="00"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginBottom="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textSize="16dp"
+                            android:layout_width="wrap_content"
+                            android:text="বর্তমান কর্মস্থলে যোগদানের তারিখ"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_marginStart="8dp"
+                            android:layout_width="wrap_content"
+                            android:text=":"
+                            android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:id="@+id/dateTV"
+                            android:textColor="@android:color/black"
+                            android:layout_width="wrap_content"
+                            android:text="2020-03-15"
+                            android:layout_marginStart="6dp"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

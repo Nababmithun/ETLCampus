@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".activity.EmployeeSaveActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorPrimary"
+        android:elevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                app:tint="@color/white"
+                android:id="@+id/backBtn"
+                android:background="?actionBarItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:onClick="backBtn"
+                android:padding="10dp"
+                android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/backBtn"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:text="কর্মকর্তা ও কর্মচারীবৃন্দ যোগ করুন "
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:layout_marginEnd="8dp"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="নাম"
+                            android:textColor="@color/grayWhite"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/nameET"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            android:background="@drawable/edit_baground"
+                            android:drawableTint="@color/grayColor"
+                            android:hint="পুরো নাম লিখুন"
+                            android:inputType="text"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="10dp"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="ইমেইল"
+                            android:textColor="@color/grayWhite"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/emailET"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            android:background="@drawable/edit_baground"
+                            android:drawableTint="@color/grayColor"
+                            android:hint="ইমেইল লিখুন"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="10dp"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="মোবাইল"
+                            android:textColor="@color/grayWhite"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/mobileNoET"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            android:background="@drawable/edit_baground"
+                            android:drawableTint="@color/grayColor"
+                            android:hint="017********"
+                            android:inputType="phone"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="10dp"
+                            android:textSize="14dp" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="উপাধি"
+                            android:textColor="@color/grayWhite"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/designationET"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="start"
+                            android:keyboardNavigationCluster="true"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            android:background="@drawable/edit_baground"
+                            android:drawableTint="@color/grayColor"
+                            android:hint="উপাধি লিখুন"
+                            android:inputType="number"
+                            android:paddingTop="8dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="10dp"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="বিসিএস ব্যাচ "
+                            android:textColor="@color/grayWhite"
+                            android:textSize="16sp" />
+
+                        <EditText
+                            android:id="@+id/bcsbatchET"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="start"
+                            android:keyboardNavigationCluster="true"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            android:background="@drawable/edit_baground"
+                            android:drawableTint="@color/grayColor"
+                            android:hint="বিসিএস ব্যাচ লিখুন"
+                            android:inputType="text"
+                            android:paddingTop="8dp"
+                            android:paddingLeft="8dp"
+                            android:paddingRight="10dp"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="তারিখ"
+                            android:textColor="@color/grayWhite"
+                            android:textSize="16sp" />
+
+                        <LinearLayout
+                            android:id="@+id/selectedForDateIV"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/edit_baground"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:paddingLeft="8dp"
+                                android:id="@+id/dateTxt"
+                                android:layout_marginStart="4dp"
+                                android:layout_weight="5"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="যোগদানের তারিখ লিখুন"/>
+
+                            <ImageView
+                                android:paddingRight="10dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:src="@drawable/ic_baseline_date_range_24"/>
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginBottom="2dp"
+                            android:text="ছবি যোগ করুন"
+                            android:textColor="@color/grayWhite"
+                            android:textSize="16sp" />
+
+                        <LinearLayout
+                            android:id="@+id/selectedIV"
+                            android:foreground="?attr/selectableItemBackground"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginRight="6dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:background="@drawable/edit_baground"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_marginStart="8dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                android:src="@drawable/ic_baseline_camera_alt_24"/>
+
+                            <TextView
+                                android:id="@+id/imageNameTV"
+                                android:layout_marginStart="4dp"
+                                android:layout_weight="5"
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="টাচ করুন ছবির জন্য "/>
+
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/getImageIV"
+                            android:layout_marginTop="8sp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/btn_bg"
+                android:text="জমা দিন"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
