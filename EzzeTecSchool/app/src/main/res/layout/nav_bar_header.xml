@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="182dp"
+    android:gravity="bottom"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+
+    <ImageView
+
+
+        android:layout_gravity="center"
+        android:tint="#ffff"
+        android:id="@+id/profile_image"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:src="@drawable/elarning"
+      />
+
+
+    <TextView
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/solaimanilipi"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="ই টি এল  ক্যাম্পাস"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#ffff"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="শিক্ষা জাতির মেরুদন্ড, শিক্ষা ছাড়া উপায় নেই"
+        android:textColor="#ffff"
+        android:textSize="13dp" />
+
+    <View
+
+        android:layout_marginTop="10dp"
+        android:background="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+</LinearLayout>

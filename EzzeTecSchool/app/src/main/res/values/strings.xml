@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ই টি এল  ক্যাম্পাস </string>
+
+    <string name="text1">একের ভিতরে , সব আছে  ?</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="ebook">কোন শ্রেণীর বই পড়তে চান?</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="title_section1">Age    </string>
+    <string name="agee">Age\n   </string>
+    <string name="title_section2">Details</string>
+
+    <string name="today">"Today\n  "</string>
+    <string name="birthdate">"Birth date\n"</string>
+    <string name="dayOfBirth">"Day of Birth\n   "</string>
+    <string name="remainingDays">"Remaining days for next birthday : "</string>
+    <string name="setDate">Choose your birth date</string>
+</resources>

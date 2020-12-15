@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_account"
+        android:icon="@drawable/trtr"
+        android:title="এইসএসসি " />
+
+
+    <item android:id="@+id/navigation_favourite"
+        android:icon="@drawable/trtr"
+        android:title="এসএসসি " />
+
+    <item android:id="@+id/navigation_store"
+        android:icon="@drawable/trtr"
+        android:title="অষ্টম " />
+
+    <item android:id="@+id/navigation_cart"
+        android:icon="@drawable/trtr"
+        android:title="সপ্তম " />
+
+    <item android:id="@+id/navigation_camera"
+        android:icon="@drawable/trtr"
+        android:title="ষষ্ঠ " />
+
+</menu>

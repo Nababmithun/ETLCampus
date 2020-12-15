@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".IntroScreenActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+
+            android:layout_marginLeft="13dp"
+            android:id="@+id/logo_img"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_toRightOf="@+id/pro_txt"
+            android:src="@drawable/icon1" />
+
+        <com.rey.material.widget.TextView
+
+            xmlns:font="http://schemas.android.com/apk/lib/com.thoughtworks.retailshop.util"
+            android:id="@+id/pro_txt"
+            style="@style/TextAppearance.AppCompat.Display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/logo_img"
+            android:layout_centerHorizontal="true"
+            android:shadowColor="#000"
+            android:shadowDx="2"
+            android:fontFamily="@font/solaimanilipi"
+            android:shadowDy="2"
+            android:shadowRadius="1.0"
+            android:text="ই টি এল  ক্যাম্পাসে যাই "
+            android:textColor="#008577"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            font:ttf_name="paranoid.ttf" />
+
+
+        <TextView
+
+            android:fontFamily="@font/solaimanilipi"
+            android:id="@+id/track_txt"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pro_txt"
+            android:layout_below="@+id/pro_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="1.0"
+            android:text="এপপ্স এর মাধ্যমে শিখি "
+            android:textColor="#008577"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormPageActivity">
+
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+
+       <androidx.cardview.widget.CardView
+           app:cardElevation="4dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:layout_width="match_parent"
+           android:layout_height="610dp">
+
+
+
+          <LinearLayout
+              android:layout_marginLeft="@dimen/layout_margin_5"
+              android:layout_marginRight="@dimen/layout_margin_5"
+              android:layout_marginTop="@dimen/layout_margin_5"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="540dp">
+
+
+              <TextView
+                  android:textColor="@color/colorPrimary"
+                  android:fontFamily="@font/solaimanilipi"
+                  android:textSize="27dp"
+                  android:layout_gravity="center"
+                  android:gravity="center"
+                  android:layout_marginTop="10dp"
+                  android:text="@string/text1"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+              <LinearLayout
+                  android:layout_marginTop="14dp"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginLeft="10dp"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="239dp">
+
+
+                      <LinearLayout
+                          android:background="@drawable/introback"
+                          android:layout_gravity="center"
+                          android:gravity="center"
+                          android:layout_margin="20dp"
+                          android:orientation="vertical"
+                          android:layout_width="130dp"
+                          android:layout_height="210dp">
+
+
+                          <ImageView
+                              android:layout_marginTop="10dp"
+                              android:src="@drawable/icon1"
+                              android:layout_width="60dp"
+                              android:layout_height="60dp"/>
+
+
+                          <TextView
+                              android:textSize="14dp"
+                              android:textColor="#F41044"
+                              android:fontFamily="@font/solaimanilipi"
+                              android:layout_marginTop="55dp"
+                              android:text="প্রথম-দ্বাদশ শ্রেণী"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"/>
+
+
+
+                          <info.hoang8f.widget.FButton
+                              android:textSize="12dp"
+                              android:fontFamily="@font/solaimanilipi"
+                              android:layout_width="wrap_content"
+                              android:layout_height="25dp"
+                              android:layout_margin="15dp"
+                              android:text="সব আছে "
+                              android:textAllCaps="false"
+                              android:textColor="@android:color/white"
+                              app:cornerRadius="3dp"
+                              app:fButtonColor="@color/colorPrimary"
+                              app:shadowEnabled="true"
+                              app:shadowHeight="3dp" />
+
+
+
+                      </LinearLayout>
+
+
+                      <LinearLayout
+                          android:background="@drawable/introback"
+                          android:layout_gravity="center"
+                          android:gravity="center"
+                          android:layout_margin="20dp"
+                          android:orientation="vertical"
+                          android:layout_width="130dp"
+                          android:layout_height="210dp">
+
+
+                          <ImageView
+                              android:layout_marginTop="10dp"
+                              android:src="@drawable/icon1"
+                              android:layout_width="60dp"
+                              android:layout_height="60dp"/>
+
+
+                          <TextView
+                              android:textSize="14dp"
+                              android:textColor="#F41044"
+                              android:fontFamily="@font/solaimanilipi"
+                              android:layout_marginTop="55dp"
+                              android:text="ভর্তি পরীক্ষা "
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"/>
+
+
+                          <info.hoang8f.widget.FButton
+                              android:textSize="12dp"
+                              android:fontFamily="@font/solaimanilipi"
+                              android:layout_width="wrap_content"
+                              android:layout_height="25dp"
+                              android:layout_margin="15dp"
+                              android:text="সব আছে "
+                              android:textAllCaps="false"
+                              android:textColor="@android:color/white"
+                              app:cornerRadius="3dp"
+                              app:fButtonColor="@color/colorPrimary"
+                              app:shadowEnabled="true"
+                              app:shadowHeight="3dp" />
+
+
+
+                      </LinearLayout>
+
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:layout_marginRight="10dp"
+                  android:layout_marginLeft="10dp"
+                  android:gravity="center"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="239dp">
+
+
+
+                      <LinearLayout
+                          android:background="@drawable/introback"
+                          android:layout_gravity="center"
+                          android:gravity="center"
+                          android:layout_margin="20dp"
+                          android:orientation="vertical"
+                          android:layout_width="130dp"
+                          android:layout_height="210dp">
+
+
+                          <ImageView
+                              android:layout_marginTop="10dp"
+                              android:src="@drawable/icon1"
+                              android:layout_width="60dp"
+                              android:layout_height="60dp"/>
+                          <TextView
+                              android:fontFamily="@font/solaimanilipi"
+                              android:textSize="14dp"
+                              android:textColor="#F41044"
+                              android:layout_marginTop="55dp"
+                              android:text="বিশ্ববিদ্যালয় "
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"/>
+                          <info.hoang8f.widget.FButton
+                              android:textSize="12dp"
+                              android:fontFamily="@font/solaimanilipi"
+                              android:id="@+id/btnSignIn"
+                              android:layout_width="wrap_content"
+                              android:layout_height="25dp"
+                              android:layout_margin="15dp"
+                              android:text="সব আছে "
+                              android:textAllCaps="false"
+                              android:textColor="@android:color/white"
+                              app:cornerRadius="3dp"
+                              app:fButtonColor="@color/colorPrimary"
+                              app:shadowEnabled="true"
+                              app:shadowHeight="3dp" />
+
+
+
+                      </LinearLayout>
+
+
+
+
+                      <LinearLayout
+                          android:background="@drawable/introback"
+                          android:layout_width="130dp"
+                          android:layout_height="210dp"
+                          android:layout_gravity="center"
+                          android:layout_margin="20dp"
+                          android:gravity="center"
+                          android:orientation="vertical">
+
+
+                          <ImageView
+                              android:layout_width="60dp"
+                              android:layout_height="60dp"
+                              android:layout_marginTop="10dp"
+                              android:src="@drawable/icon1" />
+
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_marginTop="55dp"
+                              android:fontFamily="@font/solaimanilipi"
+                              android:text="বিসি এস পরীক্ষা "
+                              android:textColor="#F41044"
+                              android:textSize="14dp" />
+
+                          <info.hoang8f.widget.FButton
+                              android:layout_width="wrap_content"
+                              android:layout_height="25dp"
+                              android:layout_margin="15dp"
+                              android:fontFamily="@font/solaimanilipi"
+                              android:text="সব আছে "
+                              android:textAllCaps="false"
+                              android:textColor="@android:color/white"
+                              android:textSize="12dp"
+                              app:cornerRadius="3dp"
+                              app:fButtonColor="@color/colorPrimary"
+                              app:shadowEnabled="true"
+                              app:shadowHeight="3dp" />
+
+
+                      </LinearLayout>
+
+
+
+
+
+
+              </LinearLayout>
+
+          </LinearLayout>
+
+           <info.hoang8f.widget.FButton
+               android:layout_marginTop="550dp"
+               android:onClick="loginn"
+               android:textSize="16dp"
+               android:layout_marginLeft="25dp"
+               android:layout_marginRight="25dp"
+               android:fontFamily="@font/solaimanilipi"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:text="আমার একাউন্ট আছে "
+               android:textAllCaps="false"
+               android:textColor="@android:color/white"
+               app:cornerRadius="3dp"
+               app:fButtonColor="@color/colorPrimary"
+               app:shadowEnabled="true"
+               app:shadowHeight="3dp" />
+
+
+
+       </androidx.cardview.widget.CardView>
+
+
+      <LinearLayout
+          android:layout_marginTop="5dp"
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+
+
+
+          <info.hoang8f.widget.FButton
+              android:onClick="registration"
+              android:textSize="16dp"
+              android:layout_marginTop="7dp"
+              android:layout_marginLeft="25dp"
+              android:layout_marginRight="25dp"
+              android:fontFamily="@font/solaimanilipi"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:text="আপনার একাউন্ট খুলুন  "
+              android:textAllCaps="false"
+              android:textColor="@android:color/white"
+              app:cornerRadius="3dp"
+              app:fButtonColor="#F41044"
+              app:shadowEnabled="true"
+              app:shadowHeight="3dp" />
+
+
+
+          <TextView
+              android:layout_marginTop="@dimen/layout_margin_5"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+
+      </LinearLayout>
+
+   </LinearLayout>
+
+
+
+</ScrollView>

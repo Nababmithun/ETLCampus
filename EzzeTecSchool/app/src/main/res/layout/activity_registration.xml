@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/solaimanilipi"
+            android:textStyle="bold"
+            android:textSize="32dp"
+            android:text="নিবন্ধীকরণ "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="65dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/linearLayout"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:elevation="4dp"
+                app:cardCornerRadius="5dp"
+                android:layout_height="420dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content"
+                        app:boxBackgroundMode="outline">
+
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:hint="নাম "
+                            android:fontFamily="@font/solaimanilipi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@android:color/black"
+                            android:textColorHint="@android:color/black"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"
+                            android:inputType="text"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            app:met_baseColor="@android:color/black"
+                            app:met_floatingLabel="highlight"
+                            app:met_maxCharacters="11"
+                            app:met_primaryColor="@android:color/black"
+                            app:met_singleLineEllipsis="true"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:boxBackgroundMode="outline">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:hint="ইমেইল  "
+                            android:fontFamily="@font/solaimanilipi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@android:color/black"
+                            android:textColorHint="@android:color/black"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            app:met_baseColor="@android:color/black"
+                            app:met_floatingLabel="highlight"
+                            app:met_primaryColor="@android:color/black"
+                            app:met_singleLineEllipsis="true"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_margin="10dp"
+
+                        android:layout_height="wrap_content"
+                        app:boxBackgroundMode="outline">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:hint="পাসওয়ার্ড   "
+                            android:fontFamily="@font/solaimanilipi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@android:color/black"
+                            android:textColorHint="@android:color/black"
+                            android:textColor="@android:color/black"
+                            android:textSize="16dp"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            app:met_baseColor="@android:color/black"
+                            app:met_floatingLabel="highlight"
+                            app:met_primaryColor="@android:color/black"
+                            app:met_singleLineEllipsis="true"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:fontFamily="@font/solaimanilipi"
+                            android:id="@+id/chkRemember"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            style="@style/Material.Drawable.CheckBox"
+                            android:text="আমাকে মনে কর"
+                            android:layout_weight=".5"
+                            android:gravity="center_vertical"
+                            app:cbd_strokeColor="@android:color/white"
+                            android:textColor="#09756C"
+                            app:cbd_tickColor="@android:color/white"
+                            />
+
+
+                        <TextView
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:fontFamily="@font/solaimanilipi"
+                            android:id="@+id/txtForgotPwd"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:text="পাসওয়ার্ড ভুলে গেছেন"
+                            android:textColor="#F41044"
+                            />
+
+
+                    </LinearLayout>
+
+                    <info.hoang8f.widget.FButton
+                        android:onClick="loginnnn"
+                        android:layout_marginTop="37dp"
+                        android:textSize="14dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:fontFamily="@font/solaimanilipi"
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_weight="1"
+                        android:text="নিবন্ধীকরণ "
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        app:cornerRadius="3dp"
+                        app:fButtonColor="@color/colorPrimary"
+                        app:shadowEnabled="true"
+                        app:shadowHeight="3dp" />
+
+
+
+                   <LinearLayout
+                       android:layout_gravity="center"
+                       android:gravity="center"
+                       android:layout_margin="20dp"
+                       android:orientation="horizontal"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content">
+
+                       <TextView
+                           android:textSize="14dp"
+                           android:text="ইতিমধ্যে সদস্য ?"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+
+
+
+                       <TextView
+                           android:onClick="login2"
+                           android:textColor="#F41044"
+                           android:textSize="14dp"
+
+                           android:text="     প্রবেশ করুন"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"/>
+                   </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

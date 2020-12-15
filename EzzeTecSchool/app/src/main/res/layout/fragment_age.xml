@@ -1,0 +1,137 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="ercanduman.dayofbirth_horoscopes.AgeFragment">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:textSize="12dp"
+                    android:fontFamily="serif"
+                    android:layout_marginLeft="12dp"
+                    android:gravity="center"
+                    android:background="@drawable/broder"
+                    android:id="@+id/tvCurrentDay"
+                    android:layout_width="170dp"
+                    android:layout_height="159dp"
+                    android:text="@string/today"/>
+
+                <TextView
+                    android:textSize="12dp"
+
+                    android:fontFamily="serif"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/broder"
+                    android:id="@+id/tvUserBirthDay"
+                    android:layout_width="170dp"
+                    android:layout_height="159dp"
+                    android:gravity="center"
+                    android:text="@string/birthdate"/>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvUsersAge"
+                    android:textSize="12dp"
+                    android:layout_width="170dp"
+                    android:layout_height="159dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/broder"
+                    android:fontFamily="serif"
+                    android:gravity="center"
+                    android:text="@string/title_section1" />
+
+                <TextView
+                    android:fontFamily="serif"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/broder"
+                    android:id="@+id/tvTheDayOfBirth"
+                    android:layout_width="170dp"
+                    android:layout_height="159dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/dayOfBirth"/>
+
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:fontFamily="serif"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/broder"
+                android:id="@+id/tvRemainingDaysForNextBday"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="@string/remainingDays"/>
+
+            <Button
+                android:textSize="15dp"
+                android:fontFamily="serif"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:background="@color/colorPrimary"
+                android:id="@+id/btnSetDate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="@string/setDate"
+                />
+
+
+
+            <TextView
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+
+
+
+
+
+    <ScrollView
+
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <HorizontalScrollView
+                    android:layout_marginTop="4dp"
+
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="162dp">
+
+
+                        <LinearLayout
+
+                            android:layout_marginLeft="5dp"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="162dp">
+
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginLeft="2dp"
+
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="5dp"
+                                >
+
+
+                                <LinearLayout
+
+                                    android:layout_marginTop="2dp"
+                                    android:layout_width="155dp"
+                                    android:layout_height="150dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="74dp"
+                                        android:layout_height="74dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+
+
+                                    <TextView
+
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="পর্দাথ প্রথমপত্র "
+                                        />
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+                            <androidx.cardview.widget.CardView
+
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="5dp"
+                                >
+
+
+
+                                <LinearLayout
+
+                                    android:layout_width="155dp"
+                                    android:layout_height="150dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="74dp"
+                                        android:layout_height="74dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+
+                                    <TextView
+
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="পর্দাথ দ্বিতীয়পত্র"
+                                        />
+
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+
+
+
+                            <androidx.cardview.widget.CardView
+
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="5dp"
+                                >
+
+
+
+                                <LinearLayout
+
+                                    android:layout_width="155dp"
+                                    android:layout_height="150dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+                                    <TextView
+
+                                        android:textColor="@color/colorPrimary"
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="রসায়ন দ্বিতীয়পত্র "
+
+                                        />
+
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <androidx.cardview.widget.CardView
+
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="5dp"
+                                >
+
+
+
+                                <LinearLayout
+
+                                    android:layout_width="155dp"
+                                    android:layout_height="150dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+                                    <TextView
+
+                                        android:textColor="@color/colorPrimary"
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="রসায়ন প্রথমপত্র "
+
+                                        />
+
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="5dp"
+                                >
+
+
+
+                                <LinearLayout
+
+                                    android:layout_width="155dp"
+                                    android:layout_height="150dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+                                    <TextView
+
+                                        android:textColor="@color/colorPrimary"
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="জীববিজ্ঞান প্রথমপত্র  "
+
+                                        />
+
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+                            <androidx.cardview.widget.CardView
+
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="5dp"
+                                >
+
+
+
+                                <LinearLayout
+
+                                    android:layout_width="155dp"
+                                    android:layout_height="150dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+                                    <TextView
+
+                                        android:textColor="@color/colorPrimary"
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="জীববিজ্ঞান দ্বিতীয়পত্র"
+
+                                        />
+
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                android:layout_marginTop="5dp"
+                                >
+
+
+
+                                <LinearLayout
+
+                                    android:layout_width="155dp"
+                                    android:layout_height="150dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+                                    <TextView
+
+                                        android:textColor="@color/colorPrimary"
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="আই সি টি"
+
+                                        />
+
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+
+                                android:layout_width="10dp"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                </HorizontalScrollView>
+
+
+                <HorizontalScrollView
+
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="164dp">
+
+
+                        <LinearLayout
+
+                            android:layout_marginLeft="5dp"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="164dp">
+
+
+
+                            <androidx.cardview.widget.CardView
+
+                                android:layout_marginTop="3dp"
+
+                                android:layout_marginLeft="2dp"
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                               >
+
+
+                                <LinearLayout
+
+                                    android:layout_marginLeft="2dp"
+                                    android:layout_marginTop="2dp"
+                                    android:id="@+id/fundamentals"
+                                    android:layout_width="155dp"
+                                    android:layout_height="155dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="74dp"
+                                        android:layout_height="74dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+
+
+                                    <TextView
+
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="গণিত কুইজ"
+                                        />
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="3dp"
+
+
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                               >
+
+
+                                <LinearLayout
+
+
+                                    android:layout_marginTop="2dp"
+                                    android:layout_width="155dp"
+                                    android:layout_height="155dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="74dp"
+                                        android:layout_height="74dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+
+
+                                    <TextView
+
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="সিনোনিম ভোকাবুলারি "
+                                        />
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="3dp"
+
+
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                >
+
+
+                                <LinearLayout
+
+                                    android:layout_marginTop="2dp"
+                                    android:layout_width="155dp"
+                                    android:layout_height="155dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="74dp"
+                                        android:layout_height="74dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+
+
+                                    <TextView
+
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="এন্টোনিম  ভোকাবুলারি "
+                                        />
+
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="3dp"
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                >
+
+
+
+                                <LinearLayout
+
+                                    android:layout_marginTop="2dp"
+                                    android:id="@+id/operating"
+                                    android:layout_width="155dp"
+                                    android:layout_height="155dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="74dp"
+                                        android:layout_height="74dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+
+                                    <TextView
+
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textColor="@color/colorPrimary"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="আন্তর্জাতিক  বিষয়াবলী"
+                                        />
+
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="3dp"
+
+
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                               >
+
+
+
+                                <LinearLayout
+
+                                    android:layout_marginTop="2dp"
+                                    android:layout_width="155dp"
+                                    android:layout_height="155dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+                                    <TextView
+
+                                        android:textColor="@color/colorPrimary"
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="বাংলাদেশ বিষয়াবলী"
+
+                                        />
+
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="3dp"
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                >
+
+
+
+                                <LinearLayout
+
+                                    android:layout_marginTop="2dp"
+                                    android:id="@+id/hardware"
+                                    android:layout_width="155dp"
+                                    android:layout_height="155dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+                                    <TextView
+
+                                        android:textColor="@color/colorPrimary"
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="বাংলা প্রথমপত্র "
+
+                                        />
+
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="3dp"
+
+
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                >
+
+
+
+                                <LinearLayout
+
+                                    android:layout_marginTop="2dp"
+                                    android:layout_width="155dp"
+                                    android:layout_height="155dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+                                    <TextView
+
+                                        android:textColor="@color/colorPrimary"
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="বাংলা দ্বিতীয়পত্র "
+
+                                        />
+
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="3dp"
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                >
+
+
+
+                                <LinearLayout
+
+                                    android:layout_marginTop="2dp"
+                                    android:layout_width="155dp"
+                                    android:layout_height="155dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+                                    <TextView
+
+                                        android:textColor="@color/colorPrimary"
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="অর্থনীতি প্রথমপত্র "
+
+                                        />
+
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_marginTop="3dp"
+                                android:layout_width="160dp"
+                                android:layout_height="150dp"
+                                >
+
+
+
+                                <LinearLayout
+
+                                    android:layout_marginTop="2dp"
+                                    android:layout_width="155dp"
+                                    android:layout_height="155dp"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+
+                                        android:tint="@color/colorPrimary"
+                                        android:layout_width="64dp"
+                                        android:layout_height="64dp"
+                                        android:background="@drawable/circle_background_green"
+                                        android:padding="10dp"
+                                        android:src="@drawable/brain" />
+
+                                    <TextView
+
+                                        android:textColor="@color/colorPrimary"
+                                        android:fontFamily="@font/solaimanilipi"
+                                        android:textSize="17dp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:text="অর্থনীতি দ্বিতীয়পত্র"
+
+                                        />
+
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
+
+                            <TextView
+
+                                android:layout_width="10dp"
+                                android:layout_height="wrap_content"/>
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                </HorizontalScrollView>
+
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp">
+
+
+
+                    <TextView
+                        android:background="@drawable/backroundquiz"
+                        android:textColor="#FDF7F7"
+                        android:fontFamily="@font/solaimanilipi"
+                        android:textSize="18sp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center"
+                        android:text="লাইভ কুইজ "
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"/>
+
+
+
+
+                  <de.hdodenhof.circleimageview.CircleImageView
+                      android:layout_width="65dp"
+                      app:civ_border_width="2dp"
+                      app:civ_border_color="#E40F0F"
+                      android:layout_gravity="center"
+                      android:src="@drawable/live"
+                      android:layout_height="55dp">
+
+
+                  </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+
+                    <TextView
+
+                        android:layout_gravity="center"
+                        android:textColor="#E40F0F"
+                        android:fontFamily="@font/solaimanilipi"
+                        android:textSize="17sp"
+                        android:layout_marginTop="57dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center"
+                        android:text="চলো পরীক্ষা দেই  "
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"/>
+
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_marginTop="9dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp">
+
+
+
+                    <TextView
+                        android:background="@drawable/backroundquiz"
+                        android:textColor="#ffff"
+                        android:fontFamily="@font/solaimanilipi"
+                        android:textSize="18sp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center"
+                        android:text="আমাদের  বিষয়াবলী"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"/>
+
+                    <HorizontalScrollView
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:scrollbars="none"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp">
+
+
+
+
+                        <LinearLayout
+                            android:layout_marginLeft="7dp"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="114dp">
+
+                            <LinearLayout
+
+                                android:orientation="vertical"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+
+                                    android:onClick="ebook"
+                                   android:layout_gravity="center"
+                                    android:layout_marginTop="13dp"
+                                    android:tint="@color/colorPrimary"
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:background="@drawable/circle_background_green"
+                                    android:padding="10dp"
+                                    android:src="@drawable/brain" />
+
+                                <TextView
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="5dp"
+                                    android:textColor="@color/colorPrimary"
+                                    android:fontFamily="@font/solaimanilipi"
+                                    android:textSize="17dp"
+                                    android:text="ই-বুক "
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_marginTop="3dp"
+
+                                android:layout_marginLeft="35dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:tint="@color/colorPrimary"
+
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="13dp"
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:background="@drawable/circle_background_green"
+                                    android:padding="10dp"
+                                    android:src="@drawable/brain" />
+                                <TextView
+                                    android:layout_marginTop="5dp"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:fontFamily="@font/solaimanilipi"
+                                    android:textSize="17dp"
+                                    android:text="অডিও বুক"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_marginLeft="35dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:tint="@color/colorPrimary"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="13dp"
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:background="@drawable/circle_background_green"
+                                    android:padding="10dp"
+                                    android:src="@drawable/brain" />
+
+
+                                <TextView
+                                    android:layout_marginTop="5dp"
+                                    android:layout_gravity="center"
+                                    android:textColor="@color/colorPrimary"
+                                    android:fontFamily="@font/solaimanilipi"
+                                    android:textSize="17dp"
+                                    android:text="নোট"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+
+                            </LinearLayout>
+                            <LinearLayout
+
+                                android:orientation="vertical"
+
+                                android:layout_marginLeft="25dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:tint="@color/colorPrimary"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="13dp"
+                                    android:layout_width="54dp"
+                                    android:layout_height="54dp"
+                                    android:background="@drawable/circle_background_green"
+                                    android:padding="10dp"
+                                    android:src="@drawable/brain" />
+                                <TextView
+                                    android:textColor="@color/colorPrimary"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_gravity="center"
+                                    android:fontFamily="@font/solaimanilipi"
+                                    android:textSize="17dp"
+                                    android:text="ক্যালকুলেটর "
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+
+                            </LinearLayout>
+
+
+                            <TextView
+
+                                android:layout_width="10dp"
+                                android:layout_height="wrap_content"/>
+
+                        </LinearLayout>
+
+
+                    </HorizontalScrollView>
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+                <LinearLayout
+
+                    android:layout_margin="@dimen/layout_margin_5"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="189dp">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="175dp">
+
+
+
+                        <LinearLayout
+
+                            android:layout_margin="3dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="162dp">
+
+
+                            <TextView
+                                android:textColor="@color/colorPrimary"
+                                android:fontFamily="@font/solaimanilipi"
+                                android:layout_marginTop="16dp"
+                                android:textSize="17dp"
+                                android:layout_width="wrap_content"
+                                android:layout_marginLeft="18dp"
+                                android:text="আপের মান উন্নয়ন মতামত দিন "
+                                android:layout_height="wrap_content"/>
+
+
+                            <LinearLayout
+
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:fontFamily="@font/solaimanilipi"
+                                    android:text="ফেসবুক"
+                                    android:textColor="#000"
+                                    android:textSize="25dp" />
+
+                                <TextView
+
+                                    android:fontFamily="@font/solaimanilipi"
+                                    android:textSize="16dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="12dp"
+                                    android:text="কমিনিটি "
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"/>
+
+
+
+
+                                <ImageView
+
+                                    android:tint="@color/colorPrimary"
+                                    android:layout_marginLeft="76dp"
+                                    android:src="@drawable/brain"
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"/>
+
+                            </LinearLayout>
+
+
+                            <Button
+
+                                android:textColor="#FFFBFB"
+                                android:textStyle="bold"
+                                android:layout_marginTop="7dp"
+                                android:background="@drawable/btnback"
+                                android:fontFamily="@font/solaimanilipi"
+                                android:id="@+id/facebook"
+                                android:layout_marginLeft="25dp"
+                                android:text="যোগ দিন "
+                                android:layout_width="130dp"
+                                android:layout_height="37dp"/>
+
+                        </LinearLayout>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

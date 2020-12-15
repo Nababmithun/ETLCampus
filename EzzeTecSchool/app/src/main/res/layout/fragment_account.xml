@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Account">
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+
+                <LinearLayout
+                    android:layout_margin="@dimen/layout_margin_5"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+
+                    <ImageView
+                        android:layout_marginTop="6dp"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/processed"
+                        android:layout_width="60dp"
+                        android:layout_height="90dp"/>
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:fontFamily="@font/solaimanilipi"
+
+                            android:textSize="@dimen/sp18"
+                            android:text="বাংলা মাধ্যম"
+                            android:layout_marginLeft="@dimen/sp20"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:textSize="@dimen/sp18"
+
+                            android:fontFamily="@font/solaimanilipi"
+                            android:textStyle="bold"
+                            android:layout_marginTop="2dp"
+                            android:text="English For Today"
+                            android:layout_marginLeft="@dimen/sp20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+
+                <LinearLayout
+                    android:layout_margin="@dimen/layout_margin_5"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+
+                    <ImageView
+                        android:layout_marginTop="6dp"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/processed"
+                        android:layout_width="60dp"
+                        android:layout_height="90dp"/>
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:fontFamily="@font/solaimanilipi"
+
+                            android:textSize="@dimen/sp18"
+                            android:text="বাংলা মাধ্যম"
+                            android:layout_marginLeft="@dimen/sp20"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:textSize="@dimen/sp18"
+
+                            android:fontFamily="@font/solaimanilipi"
+                            android:textStyle="bold"
+                            android:layout_marginTop="2dp"
+                            android:text="সাহিত্য পাঠ "
+                            android:layout_marginLeft="@dimen/sp20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+
+                <LinearLayout
+                    android:layout_margin="@dimen/layout_margin_5"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+
+                    <ImageView
+                        android:layout_marginTop="6dp"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/processed"
+                        android:layout_width="60dp"
+                        android:layout_height="90dp"/>
+
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:fontFamily="@font/solaimanilipi"
+
+                            android:textSize="@dimen/sp18"
+                            android:text="বাংলা মাধ্যম"
+                            android:layout_marginLeft="@dimen/sp20"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:textSize="@dimen/sp18"
+
+                            android:fontFamily="@font/solaimanilipi"
+                            android:textStyle="bold"
+                            android:layout_marginTop="2dp"
+                            android:text="সহ পাঠ "
+                            android:layout_marginLeft="@dimen/sp20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>
